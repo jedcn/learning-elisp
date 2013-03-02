@@ -29,17 +29,35 @@ after I saw that first video, in March of 2013.
 ## The Beginning
 
 I started off by googling 'learn elisp' and ended up on the emacs
-wiki. That wiki entry [EmacsLispIntro][emacs-lisp-intro] was my first
+wiki. The wiki entry [EmacsLispIntro][emacs-lisp-intro] was my first
 stop.
 
 From there, I decided to try the tutorial on emacs lisp built into
 emacs itself. According to the wiki page,
 
-> It can be accessed by typing ```C-h i``` and then by typing 'm emacs
-> lisp intro'
+> The way to read the intro is to type 'C-h i' to start Info, and then
+> 'm Emacs Lisp Intro RET'
 
 ### The Emacs Lisp Intro
 
+It may sound silly now, but I didn't realize emacs had documentation
+about emacs within emacs.
+
+I had to slow down and re-read the introductory paragraph twice before
+I could understand what the wiki entry meant when it told me to 'm
+Emacs Lisp Intro RET'
+
+And this was the beginning of a theme that I'd revisit again and
+again: slow down.
+
+And another central theme: pay attention to what is written here:
+
+> This (the Directory node) gives a menu of major topics. Typing "q"
+> exits, "?" lists all Info commands, "d" returns here, "h" gives a
+> primer for first-timers, "mEmacs<Return>" visits the Emacs manual,
+> etc.
+
+I typed 'h' and spent the next 25 minutes going through the primer.
 
 ## Resources
 
