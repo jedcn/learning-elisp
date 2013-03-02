@@ -6,8 +6,44 @@ Emacs Lisp.
 
 Here's the story of how I finally learned Emacs Lisp.
 
+## Motivation
+
+Even though I always knew it would be a good idea if I could "program
+emacs," I never got around to it. Instead, I'd get mixed up in whatever
+I was immediately working on ignore any pains.
+
+This wasn't just emacs: I'd get "good enough" at most everything and,
+with just a few exceptions, never spend the time to customize or dig
+deeper than was immediately necessary. After all, there was a lot
+going on and so many other things were interesting as well.
+
+I also never met anyone that really used emacs, so there wasn't anyone
+to really talk to about this stuff. One day, while on vacation in the
+summer of 2012, I saw a [video][emacs-in-a-bar] made by Magnar Sveen
+and it was so cool.
+
+Yet, other things were going on, I was learning about Cucumber and
+RSpec and Ruby and there still wasn't time. Until now-- about 6 months
+after I saw that first video, in March of 2013.
+
 ## The Beginning
+
+I started off by googling 'learn elisp' and ended up on the emacs
+wiki. That wiki entry [EmacsLispIntro][emacs-lisp-intro] was my first
+stop.
+
+From there, I decided to try the tutorial on emacs lisp built into
+emacs itself. According to the wiki page,
+
+> It can be accessed by typing ```C-h i``` and then by typing 'm emacs
+> lisp intro'
+
+### The Emacs Lisp Intro
+
 
 ## Resources
 
 * http://emacswiki.org/emacs/LearnEmacsLisp
+
+[emacs-lisp-intro]: http://www.emacswiki.org/emacs/EmacsLispIntro
+[emacs-in-a-bar]: http://www.youtube.com/watch?v=p3Te_a-AGqM
