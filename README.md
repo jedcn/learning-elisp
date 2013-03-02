@@ -17,14 +17,17 @@ with just a few exceptions, never spend the time to customize or dig
 deeper than was immediately necessary. After all, there was a lot
 going on and so many other things were interesting as well.
 
-I also never met anyone that really used emacs, so there wasn't anyone
-to really talk to about this stuff. One day, while on vacation in the
-summer of 2012, I saw a [video][emacs-in-a-bar] made by Magnar Sveen
-and it was so cool.
+Additionally, I never met anyone that really used emacs, so there
+wasn't anyone to really talk to about this stuff. One day, while on
+vacation in the summer of 2012, I saw a [video][emacs-in-a-bar] made
+by Magnar Sveen and it was *so* cool.
 
-Yet, other things were going on, I was learning about Cucumber and
-RSpec and Ruby and there still wasn't time. Until now-- about 6 months
-after I saw that first video, in March of 2013.
+Yet, other things were going on, I was 6 months into a new job, I was
+learning about Cucumber and RSpec and testing and Ruby and there still
+wasn't time.
+
+Until now-- about 6 months after I first saw that video-- in March of
+2013.
 
 ## The Beginning
 
@@ -48,9 +51,11 @@ I could understand what the wiki entry meant when it told me to 'm
 Emacs Lisp Intro RET'
 
 And this was the beginning of a theme that I'd revisit again and
-again: slow down.
+again: **slow down**.
 
-And another central theme: pay attention to what is written here:
+And another central theme: **pay attention**.
+
+Specifically, to what was written and sitting before my eyes:
 
 > This (the Directory node) gives a menu of major topics. Typing "q"
 > exits, "?" lists all Info commands, "d" returns here, "h" gives a
@@ -58,6 +63,9 @@ And another central theme: pay attention to what is written here:
 > etc.
 
 I typed 'h' and spent the next 25 minutes going through the primer.
+
+There I was-- two pomodoros into "learning emacs lisp" and I hadn't
+typed a single character yet.
 
 ## Resources
 
