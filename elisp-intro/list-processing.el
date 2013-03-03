@@ -29,3 +29,20 @@
 
 ;; The line above results in a stack trace when I try to evalute it,
 ;; and it seems to say that it expected "coffee" to be a function
+
+;; The things within the lists above, such as coffee and 1 are called
+;; atoms.
+
+;; lisp is all about lists and atoms. When atoms are put together
+;; between parenthesis and separated by whitespace you get lists.
+
+;; There's only one thing that's both a list and an atom: the empty
+;; list:
+()
+
+;; Atoms have types and usually those types are used when referring to
+;; things, not the word atom.
+
+;; Here's another type of atom that we haven't seen yet: text between
+;; quotes aka a String
+'(coffee milk sugar "swizzle stick")
