@@ -55,7 +55,8 @@ again: **slow down**.
 
 And another central theme: **pay attention**.
 
-Specifically, to what was written and sitting before my eyes:
+Specifically, *slow down* and *pay attention* to what was written and
+sitting before my eyes:
 
 > This (the Directory node) gives a menu of major topics. Typing "q"
 > exits, "?" lists all Info commands, "d" returns here, "h" gives a
@@ -63,9 +64,31 @@ Specifically, to what was written and sitting before my eyes:
 > etc.
 
 I typed 'h' and spent the next 25 minutes going through the primer.
+I'd been using emacs for years and had always dismissed *Info* mode
+whenever it came up, searching instead through web pages and forums.
 
 There I was-- two pomodoros into "learning emacs lisp" and I hadn't
-typed a single character yet.
+typed a single character of lisp yet.
+
+#### Thoughts after learning about Info
+
+Before I go any further, I want to capture that I recalled a paragraph
+from an article in the NY Times called
+[The Brilliance of Dwarf Fortress][dwarf-fortress-brilliance] at this
+point.
+
+I've never played [Dwarf Fortress][dwarf-fortress], but I've
+apparently been carrying around this quote for the past two years:
+
+> Meanwhile, the smash success of the world-building game Minecraft,
+> which is in many ways a more user-friendly version of Dwarf Fortress
+> (and which has earned its Dwarf Fortress-loving creator millions of
+> dollars), has only been good for Tarn, driving curious new players
+> his way. Still, in the only moment I heard him speak with anything
+> like bitterness, Tarn called Minecraft a "depressing distillation of
+> our own stuff." He paused, adding more magnanimously that the game
+> "has its own things going for it." The problem, he concluded, "isn't
+> with Minecraft so much as it's with society."
 
 ## Resources
 
@@ -73,3 +96,5 @@ typed a single character yet.
 
 [emacs-lisp-intro]: http://www.emacswiki.org/emacs/EmacsLispIntro
 [emacs-in-a-bar]: http://www.youtube.com/watch?v=p3Te_a-AGqM
+[dwarf-fortress]: http://www.bay12games.com/dwarves/
+[dwarf-fortress-brilliance]: http://www.nytimes.com/2011/07/24/magazine/the-brilliance-of-dwarf-fortress.html
