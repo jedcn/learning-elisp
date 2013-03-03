@@ -103,11 +103,15 @@ to that code from this document.
 
 ### Preface
 
-10 mins
+1 pomodoro
 
 ### List Processing
 
-1 pomodoro and counting
+3 pomodoros
+
+### Practicing Evaluation
+
+Next Up!
 
 ## Resources
 
