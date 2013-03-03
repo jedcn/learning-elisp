@@ -41,7 +41,7 @@ emacs itself. According to the wiki page,
 > The way to read the intro is to type 'C-h i' to start Info, and then
 > 'm Emacs Lisp Intro RET'
 
-### The Emacs Lisp Intro
+## The Emacs Lisp Intro
 
 It may sound silly now, but I didn't realize emacs had documentation
 about emacs within emacs.
@@ -70,7 +70,7 @@ whenever it came up, searching instead through web pages and forums.
 There I was-- two pomodoros into "learning emacs lisp" and I hadn't
 typed a single character of lisp yet.
 
-#### Thoughts after learning about Info
+### Thoughts after learning about Info
 
 Before I go any further, I want to capture that I recalled a paragraph
 from an article in the NY Times called
@@ -89,6 +89,25 @@ apparently been carrying around this quote for the past two years:
 > our own stuff." He paused, adding more magnanimously that the game
 > "has its own things going for it." The problem, he concluded, "isn't
 > with Minecraft so much as it's with society."
+
+### Process
+
+I'm going to read this 25 minutes at a time, counting up how many 25
+minute chunks it takes me to get through this. I'm a busy dad with a
+day job, and scanning through the Intro indicates there are dozens of
+chapters. This will take some time.
+
+My plan will likely be to save any code I experiment with as I go
+through the introduction. Hopefully it'll be straight forward to link
+to that code from this document.
+
+### Preface
+
+10 mins
+
+### List Processing
+
+1 pomodoro and counting
 
 ## Resources
 
