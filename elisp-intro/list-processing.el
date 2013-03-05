@@ -1,11 +1,22 @@
 ;; Emacs Lisp Intro
 ;;   List Processing
 ;;
-;; This is a list:
-'(coffee milk sugar)
-
 ;; When I'm viewing this within emacs, I can evaluate the line above
 ;; by placing cursor at the end of the list and pressing C-x C-e
+;;
+;; Doing this evaluation is executing the command eval-last-sexp
+;;
+;; eval-last-sexp causes the result of the evaluation to be briefly
+;; displayed in the area at the bottom of the screen. If you press:
+;;
+;; C-u C-x C-e
+;;
+;; This will cause the result of the evaluation to be printed within
+;; the buffer
+;;
+
+;; This is a list:
+'(coffee milk sugar)
 
 ;; Lists can be defined over several lines:
 '(coffee

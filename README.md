@@ -111,6 +111,10 @@ to that code from this document.
 
 ### Practicing Evaluation
 
+1 pomodoro
+
+### How To Write Function Definitions
+
 Next Up!
 
 ## Resources
