@@ -115,7 +115,9 @@ to that code from this document.
 
 ### How To Write Function Definitions
 
-2 pomodoros
+3 pomodoros
+
+[Review][emacs-lisp-intro-function-review]
 
 ## Resources
 
@@ -125,3 +127,4 @@ to that code from this document.
 [emacs-in-a-bar]: http://www.youtube.com/watch?v=p3Te_a-AGqM
 [dwarf-fortress]: http://www.bay12games.com/dwarves/
 [dwarf-fortress-brilliance]: http://www.nytimes.com/2011/07/24/magazine/the-brilliance-of-dwarf-fortress.html
+[emacs-lisp-intro-function-review]: http://www.gnu.org/software/emacs/emacs-lisp-intro/html_mono/emacs-lisp-intro.html#Review

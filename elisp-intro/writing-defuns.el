@@ -36,3 +36,31 @@
   (message "%s %s must be %d years old."
            firstname lastname age)
   )
+
+
+;; Write a non-interactive function that doubles the value of its
+;; argument, a number.
+(defun doubler (number)
+  "Double NUMBER"
+  (+ number number))
+
+(doubler 20)
+
+;; Make that function interactive.
+(defun doubler (number)
+  "Double NUMBER"
+  (interactive "p")
+  (message "%s"(+ number number)))
+
+;; Write a function that tests whether the current value of
+;; `fill-column' is greater than the argument passed to the function,
+;; and if so, prints an appropriate message.
+(defun larger-than-fill-column (number)
+  "Message if NUMBER is greater than fill-column"
+  (if (> number fill-column)
+      (message "%s is greater than fill-column (%s)" number fill-column)
+    (message "%s is not greater than fill-column (%s)" number fill-column)
+      ))
+
+(larger-than-fill-column 20)
+(larger-than-fill-column 200)
