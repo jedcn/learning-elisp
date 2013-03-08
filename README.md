@@ -119,6 +119,10 @@ to that code from this document.
 
 [Review][emacs-lisp-intro-function-review]
 
+### Buffer Walk Through
+
+2 pomodoros
+
 ## Resources
 
 * http://emacswiki.org/emacs/LearnEmacsLisp
