@@ -4,7 +4,7 @@
 I used Emacs for years before I actually sat down and tried to "learn"
 Emacs Lisp.
 
-Here's the story of how I finally learned Emacs Lisp.
+Here's the story of how I finally started making progress with it.
 
 ## Motivation
 
@@ -122,6 +122,14 @@ to that code from this document.
 ### Buffer Walk Through
 
 2 pomodoros
+
+### Narrowing and Widening
+
+0.5 pomodoros
+
+### car, cdr, and cons
+
+0.5 pomodoros
 
 ## Resources
 
