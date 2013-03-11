@@ -131,6 +131,13 @@ to that code from this document.
 
 0.5 pomodoros
 
+### Cutting and Storing Text
+
+2 pomodoros
+
+There's substantial stuff here. Definitely revisit before/when writing
+elisp that cuts and stores text.
+
 ## Resources
 
 * http://emacswiki.org/emacs/LearnEmacsLisp
