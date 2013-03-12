@@ -133,7 +133,7 @@ to that code from this document.
 
 ### Cutting and Storing Text
 
-2 pomodoros
+4 pomodoros
 
 There's substantial stuff here. Definitely revisit before/when writing
 elisp that cuts and stores text.
