@@ -138,6 +138,15 @@ to that code from this document.
 There's substantial stuff here. Definitely revisit before/when writing
 elisp that cuts and stores text.
 
+The exercises were the first part of this introduction where I got
+reasonably frustrated. The fact that the kill-ring is made up of
+TextProperties eluded me.. maybe I missed it? Either way,
+```substring-no-properties``` seemed necessary and wasn't present.
+
+### List Implementation
+
+0.5 pomodoros
+
 ## Resources
 
 * http://emacswiki.org/emacs/LearnEmacsLisp
