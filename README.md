@@ -147,6 +147,10 @@ TextProperties eluded me.. maybe I missed it? Either way,
 
 0.5 pomodoros
 
+### Yanking
+
+1 pomodoro
+
 ## Resources
 
 * http://emacswiki.org/emacs/LearnEmacsLisp
