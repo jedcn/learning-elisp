@@ -151,6 +151,10 @@ TextProperties eluded me.. maybe I missed it? Either way,
 
 1 pomodoro
 
+### Looping and Recursion
+
+2 pomodoros
+
 ## Resources
 
 * http://emacswiki.org/emacs/LearnEmacsLisp
