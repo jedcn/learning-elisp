@@ -47,10 +47,40 @@
 
 ;; Write a function similar to `triangle' that multiplies instead of
 ;; adds the values.
+;;
+;; My interpretation of the question is that we're back to this:
+;;
+;;          *
+;;         * *
+;;        * * *
+;;       * * * *
+;;
+;; And row 1 has 1 pebble, and row 2 has 2 pebbles, and previously if
+;; we asked for a value of row two it would be 1 + 2 = 3 pebbles, but
+;; now we want to do 1 * 2 = 2 pebbles.
+;;
+;; So, row 3 would be: 3 * 2 * 1 = 6 pebbles.
+;;
+;; Looks like factorial.
+(defun triangle-multiplied (number-of-rows)
+  "Multiple values in the triangle with ROW-COUNT rows"
+  (interactive "d")
+  (let ((total 1)
+        (row-number 1))
+    (while (<= row-number number-of-rows)
+      (setq total (* total row-number))
+      (setq row-number (1+ row-number)))
+    total))
+
+(eq 1 (triangle-multiplied 1))
+(eq 2 (triangle-multiplied 2))
+(eq 6 (triangle-multiplied 3))
+(eq 24 (triangle-multiplied 4))
+(eq 120 (triangle-multiplied 5))
 
 ;; Rewrite these two functions recursively. Rewrite these functions
 ;; using `cond'.
-
+;;
 ;; Write a function for Texinfo mode that creates an index entry at
 ;; the beginning of a paragraph for every `@dfn' within the paragraph.
 ;; (In a Texinfo file, `@dfn' marks a definition. This book is written
