@@ -80,6 +80,19 @@
 
 ;; Rewrite these two functions recursively. Rewrite these functions
 ;; using `cond'.
+(defun triangle-with-squares-recursively (number)
+  "Add together values in the perfect square triangle with ROW-COUNT rows"
+    (if (= number 1)
+      1
+    (+ (* number (* number number)) ; What each "row" contributes: n * n^2
+       (triangle-with-squares-recursively
+        (1- number)))))
+
+(eq 1 (triangle-with-squares-recursively 1))
+(eq 9 (triangle-with-squares-recursively 2))
+(eq 36 (triangle-with-squares-recursively 3))
+(eq 100 (triangle-with-squares-recursively 4))
+
 ;;
 ;; Write a function for Texinfo mode that creates an index entry at
 ;; the beginning of a paragraph for every `@dfn' within the paragraph.
