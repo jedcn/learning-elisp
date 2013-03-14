@@ -78,8 +78,8 @@
 (eq 24 (triangle-multiplied 4))
 (eq 120 (triangle-multiplied 5))
 
-;; Rewrite these two functions recursively. Rewrite these functions
-;; using `cond'.
+;; Rewrite these two functions recursively.
+
 (defun triangle-with-squares-recursively (number)
   "Add together values in the perfect square triangle with NUMBER rows"
     (if (= number 1)
@@ -106,7 +106,34 @@
 (eq 6 (triangle-multiplied-recursively 3))
 (eq 24 (triangle-multiplied-recursively 4))
 (eq 120 (triangle-multiplied-recursively 5))
-;;
+
+;; Rewrite these functions using `cond'.
+(defun triangle-with-squares-using-cond (number)
+  (cond ((<= number 0) 0)
+        ((= number 1) 1)
+        ((> number 1)
+         (+ (* number (* number number))
+          (triangle-with-squares-using-cond (1- number))))))
+
+(eq 1 (triangle-with-squares-using-cond 1))
+(eq 9 (triangle-with-squares-using-cond 2))
+(eq 36 (triangle-with-squares-using-cond 3))
+(eq 100 (triangle-with-squares-using-cond 4))
+
+(defun triangle-multiplied-using-cond (number)
+  "Multiple values in the triangle with ROW-COUNT rows"
+  (cond ((<= number 0) 0)
+        ((= number 1) 1)
+        ((> number 1)
+         (* number
+            (triangle-multiplied-using-cond (1- number))))))
+
+(eq 1 (triangle-multiplied-using-cond 1))
+(eq 2 (triangle-multiplied-using-cond 2))
+(eq 6 (triangle-multiplied-using-cond 3))
+(eq 24 (triangle-multiplied-using-cond 4))
+(eq 120 (triangle-multiplied-using-cond 5))
+
 ;; Write a function for Texinfo mode that creates an index entry at
 ;; the beginning of a paragraph for every `@dfn' within the paragraph.
 ;; (In a Texinfo file, `@dfn' marks a definition. This book is written
