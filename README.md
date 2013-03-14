@@ -153,7 +153,7 @@ TextProperties eluded me.. maybe I missed it? Either way,
 
 ### Looping and Recursion
 
-3 pomodoros
+5 pomodoros
 
 ## Resources
 

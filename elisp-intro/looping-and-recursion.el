@@ -145,3 +145,7 @@
 ;; `forward-paragraph' to put the index entry at the beginning of the
 ;; paragraph, you will have to use `C-h f' (`describe-function') to
 ;; find out how to make the command go backwards.
+(defun texinfo-indexing ()
+  "Creates an index entry at the beginning of a paragraph for
+every `@dfn' within the paragraph."
+  (message "I'll be back"))
