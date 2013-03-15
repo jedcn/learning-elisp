@@ -1,0 +1,28 @@
+(defun pomodoros-so-far (progress-list)
+  "Sum the pomodoros taken so far in a PROGRESS-LIST"
+  (let ((total 0)
+        (item)
+        (item-name)
+        (item-pomodoros))
+    (while progress-list
+      (setq item (car progress-list))
+      (setq item-name (car item))
+      (setq item-pomodoros (car (cdr item)))
+      (setq total (+ total item-pomodoros))
+      (setq progress-list (cdr progress-list)))
+    total))
+
+(setq elisp-progress '(("Preface" 1)
+                       ("List Processing" 3)
+                       ("Practicing Evaluation" 1)
+                       ("Writing Defuns" 3)
+                       ("Buffer Walk Through" 2)
+                       ("More Complex" 1)
+                       ("Narrowing & Widening" 0.5)
+                       ("car cdr & cons" 0.5)
+                       ("Cutting & Storing Text" 4)
+                       ("List Implementation" 0.5)
+                       ("Yanking" 1)
+                       ("Loops & Recursion" 5)))
+
+(equal 22.5 (pomodoros-so-far elisp-progress))
