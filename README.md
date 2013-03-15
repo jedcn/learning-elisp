@@ -155,6 +155,12 @@ TextProperties eluded me.. maybe I missed it? Either way,
 
 5 pomodoros
 
+### Regexp Search
+
+2 pomodoros
+
+This is some dense stuff.
+
 ## Resources
 
 * http://emacswiki.org/emacs/LearnEmacsLisp
