@@ -163,7 +163,7 @@ This is some dense stuff.
 
 ### Counting Words
 
-1 pomodoros
+2 pomodoros
 
 ## Resources
 
