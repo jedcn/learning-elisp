@@ -5,8 +5,8 @@
 Hello. How are you? Hey look: I see a strange dog. I
 said "Come here," and the dog sniffed my hand; she liked me!
 
-(defun region-count-punction (beginning end)
-  "Count punction marks in a region"
+(defun region-count-punctuation (beginning end)
+  "Count punctuation marks in a region"
   (interactive "r")
   (save-excursion
     (let ((count 0))
@@ -17,10 +17,10 @@ said "Come here," and the dog sniffed my hand; she liked me!
 
       (cond ((zerop count)
              (message
-              "The region does NOT have any punction marks."))
+              "The region does NOT have any punctuation marks."))
             ((= 1 count)
              (message
-              "The region has 1 punction mark."))
+              "The region has 1 punctuation mark."))
             (t
              (message
-              "The region has %d punction marks." count))))))
+              "The region has %d punctuation marks." count))))))
