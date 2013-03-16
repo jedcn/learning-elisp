@@ -161,6 +161,10 @@ TextProperties eluded me.. maybe I missed it? Either way,
 
 This is some dense stuff.
 
+### Counting Words
+
+1 pomodoros
+
 ## Resources
 
 * http://emacswiki.org/emacs/LearnEmacsLisp
