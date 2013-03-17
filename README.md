@@ -167,7 +167,11 @@ This is some dense stuff.
 
 ### Words in a defun
 
-1 pomodoros
+2 pomodoros
+
+The project within is pretty neat, but dense.
+
+Skimmed, but focused on the defuns used to support stuff.
 
 ## Resources
 
