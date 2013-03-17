@@ -165,6 +165,10 @@ This is some dense stuff.
 
 2 pomodoros
 
+### Words in a defun
+
+1 pomodoros
+
 ## Resources
 
 * http://emacswiki.org/emacs/LearnEmacsLisp
