@@ -173,6 +173,10 @@ The project within is pretty neat, but dense.
 
 Skimmed, but focused on the defuns used to support stuff.
 
+### Readying a Graph
+
+1 pomodoros
+
 ## Resources
 
 * http://emacswiki.org/emacs/LearnEmacsLisp
