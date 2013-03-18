@@ -1,6 +1,10 @@
 ;; Here are the defuns provided by the 'Readying a Graph' chapter.
-;; Without any modification, they function perfectly (see below) and
-;; produce a "bar chart" like graph.
+;;
+;; Without any modification, they function perfectly and produce a
+;; "bar chart" like graph.
+;;
+;; However, see prior commit, the defun of column-of-graph has now
+;; been modified to produce a line graph instead of a bar chart.
 
 (defvar graph-symbol "*"
   "String used as symbol in graph, usually an asterisk.")
@@ -21,12 +25,15 @@
         (number-of-top-blanks
          (- max-graph-height actual-height)))
 
-    ;; Fill in `graph-symbols'.
-    (while (> actual-height 0)
-      (setq insert-list (cons graph-symbol insert-list))
+    ;; Fill in `graph-blanks' under the main line.
+    (while (> (- actual-height 1) 0)
+      (setq insert-list (cons graph-blank insert-list))
       (setq actual-height (1- actual-height)))
 
-    ;; Fill in `graph-blanks'.
+    ;; Add a single graph-symbol to represent the main line.
+    (setq insert-list (cons graph-symbol insert-list))
+
+    ;; Fill in `graph-blanks' above the main line
     (while (> number-of-top-blanks 0)
       (setq insert-list (cons graph-blank insert-list))
       (setq number-of-top-blanks
@@ -59,7 +66,8 @@
 
 (graph-body-print '(1 2 3 4 6 4 3 5 7 6 5 2 3))
 
-;; And here's what it produces:
+;; And here's what it used to produce:
+
         *
     *   **
     *  ****
@@ -67,3 +75,13 @@
   ********* *
  ************
 *************
+
+;; And here's what it produces now:
+
+        *
+    *    *
+       *  *
+   * *
+  *   *     *
+ *         *
+*
