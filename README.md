@@ -175,7 +175,7 @@ Skimmed, but focused on the defuns used to support stuff.
 
 ### Readying a Graph
 
-1 pomodoros
+2 pomodoros
 
 ## Resources
 
