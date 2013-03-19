@@ -177,6 +177,14 @@ Skimmed, but focused on the defuns used to support stuff.
 
 2 pomodoros
 
+### Emacs Initialization
+
+1 pomodoros
+
+### Debugging
+
+0 pomodoros
+
 ## Resources
 
 * http://emacswiki.org/emacs/LearnEmacsLisp
