@@ -12,6 +12,21 @@
       (setq progress-list (cdr progress-list)))
     total))
 
+(defun pomodoros-summary
+  (pomodoros-so-far pages-so-far pages-total)
+  "Messages about pomodoros associated with working through a book"
+  (let* ((pages-left (- pages-total pages-so-far))
+         (pages-per-pomodoro (/ pages-so-far pomodoros-so-far))
+         (pomodoros-left (/ pages-left pages-per-pomodoro)))
+    (message "pomodoros: %d, pages/pomodoro: %d, pages left: %d, pomodoros left: %d"
+             pomodoros-so-far
+             pages-per-pomodoro
+             pages-left
+             pomodoros-left)))
+
+(setq elisp-page-current 209)
+(setq elisp-page-total 209)
+
 (setq elisp-progress '(("Preface" 1)
                        ("List Processing" 3)
                        ("Practicing Evaluation" 1)
@@ -29,8 +44,10 @@
                        ("Words in a defun" 2)
                        ("Readying a Graph" 2)
                        ("Emacs Initialization" 1)
-                       ("Debugging" 0)
+                       ("Debugging" 1)
                        ("Conclusion" 0)
                        ))
 
-(equal 28.5 (pomodoros-so-far elisp-progress))
+(pomodoros-summary (pomodoros-so-far elisp-progress)
+                elisp-page-current
+                elisp-page-total)

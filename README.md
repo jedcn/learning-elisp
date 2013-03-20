@@ -4,7 +4,25 @@
 I used Emacs for years before I actually sat down and tried to "learn"
 Emacs Lisp.
 
-Here's the story of how I finally started making progress with it.
+In hindsight, this was a mistake.
+
+The time it takes to go through the Emacs Lisp Intro is something like
+20 hours.
+
+Yet, if you've been using Emacs only as an "editor" or if your
+knowledge of elisp is limited to "the stuff I find on the internet
+that I copy-and-paste into a file somewhere underneath my
+```~/.emacs.d``` and sometimes it works and sometimes it doesn't,"
+then the 20 hours will be well spent.
+
+## Why?
+
+I don't know any other emacs users and I don't participate in the
+community around emacs.
+
+With that said, a whole new world of emacs opens up once you've gained
+basic "reading knowledge" of elisp and an understanding of the customs
+around it.
 
 ## Motivation
 
@@ -183,12 +201,14 @@ Skimmed, but focused on the defuns used to support stuff.
 
 ### Debugging
 
-0 pomodoros
+1 pomodoros
 
 ## Resources
 
 * http://emacswiki.org/emacs/LearnEmacsLisp
 
+[emacs-wiki]: http://emacswiki.org/
+[what-the-emacs-d]: http://whattheemacsd.com/
 [emacs-lisp-intro]: http://www.emacswiki.org/emacs/EmacsLispIntro
 [emacs-in-a-bar]: http://www.youtube.com/watch?v=p3Te_a-AGqM
 [dwarf-fortress]: http://www.bay12games.com/dwarves/
